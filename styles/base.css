@@ -12,19 +12,21 @@
 
 
 header{
-    position:fixed;
+    position:sticky;
     width: 100%;
+    height: 60px;
     top: 0;
     right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background: rgb(225, 220, 220);
     padding: 28px 12%;
+  
     
 }
 .bg-light{
-    background: #6ad0f3;
+    background: #cdb61f;
 }
 
 .logo{
@@ -46,6 +48,7 @@ header{
 .navbar{
     display: flex;
     font-size: 20px;
+   
 
 }
 
@@ -56,6 +59,7 @@ header{
     padding: 20px 0;
     margin: 0px 20px;
     transition: all .50s ease;
+    color: #000000;
     
 }
 
@@ -71,11 +75,9 @@ header{
 
 
 /* Navbar end */
-/* ------------------ */
 
 /* ------------------------------------------------ */
 
-/* ---------- */
 /* Red clour part start */
 
 .container{ 
@@ -110,7 +112,7 @@ header{
     margin-right: 35px;
 }
 .content1{
-    padding-top: 120px;
+    padding-top: 70px;
     width: 75%;
     margin: 0 auto;
     margin-bottom: 55px;
@@ -120,7 +122,6 @@ header{
 
 /* --------------------------- */
 
-/* Box part start */
 /* Box part1 start */
 .box1 {
     width: 65%;
@@ -438,6 +439,34 @@ header{
 
 .imgsss1{
   
+}
+
+.w-color{
+  color: #ffffff;
+  gap: -2px;
+}
+/* .w1-color{
+  gap: 12px;
+} */
+
+.f-box{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    width: 75%;
+    margin: 0 auto;
+    height: 180px;
+
+   
+}
+
+.f-box p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.w2-space{
+  gap: 50px;
 }
 
 
